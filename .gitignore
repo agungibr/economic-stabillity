@@ -1,0 +1,55 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.swp
+
+# Python virtual environments
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/packaging
+build/
+dist/
+*.egg-info/
+
+# Data directories and large artifacts
+Data/
+!Data/sample_submission.csv
+!Data/train.csv
+!Data/test.csv
+
+# Model artifacts
+model/*.pt
+model/*.pth
+model/*.cbm
+model/*.onnx
+model/*.joblib
+model/*.pkl
+
+# CatBoost logs
+catboost_info/
+
+# Results/outputs
+Data/Res/
+
+# VS Code and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary files
+*.bak
+*.old
+*.orig

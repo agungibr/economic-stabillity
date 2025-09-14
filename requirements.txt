@@ -1,0 +1,7 @@
+easyocr
+joblib
+#numpy
+opencv-python-headless
+#pandas
+#scikit-learn
+torch
