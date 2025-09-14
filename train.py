@@ -69,7 +69,7 @@ def main():
     NUM_LAYERS = 2
     OUTPUT_SIZE = 3
     BATCH_SIZE = 64
-    NUM_EPOCHS = 20 
+    NUM_EPOCHS = 100
     LEARNING_RATE = 0.001
 
     train_df = pd.read_csv(train_file)
